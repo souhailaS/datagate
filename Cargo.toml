@@ -2,13 +2,15 @@
 members = [
     "crates/datagate-core",
     "crates/datagate-sqlx",
-    "crates/datagate-cli", "crates/datagate-mongo", "crates/datagate-file",
+    "crates/datagate-cli", 
+    "crates/datagate-mongo", 
+    "crates/datagate-file",
 ]
+resolver = "3"
 
 [workspace.package]
-name = "datagate"
+edition = "2024"
 version = "0.1.0"
 license = "AGPL-3.0-or-later"
 repository = "https://github.com/souhailaS/datagate"
 authors = ["Souhaila Serbout"]
-

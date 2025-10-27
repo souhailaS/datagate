@@ -11,5 +11,13 @@ name = "datagate-core"
 version = "0.1.0"
 
 [[package]]
+name = "datagate-file"
+version = "0.1.0"
+
+[[package]]
+name = "datagate-mongo"
+version = "0.1.0"
+
+[[package]]
 name = "datagate-sqlx"
 version = "0.1.0"
