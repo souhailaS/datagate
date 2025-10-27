@@ -1,3 +1,10 @@
+[workspace]
+members = [
+    "crates/datagate-core",
+    "crates/datagate-sqlx",
+    "crates/datagate-cli",
+]
+
 [workspace.package]
 name = "datagate"
 version = "0.1.0"
