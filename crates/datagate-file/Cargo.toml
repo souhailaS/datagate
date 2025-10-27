@@ -1,0 +1,9 @@
+[package]
+edition = "2024"
+name.workspace = true
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]

@@ -2,7 +2,7 @@
 members = [
     "crates/datagate-core",
     "crates/datagate-sqlx",
-    "crates/datagate-cli",
+    "crates/datagate-cli", "crates/datagate-mongo", "crates/datagate-file",
 ]
 
 [workspace.package]
